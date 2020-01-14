@@ -36,7 +36,6 @@ module lab1(D, S, E, F);
 		end
 		else begin
 			unsignedMag = {1'b0, ~D[10:0]}+1;
-			$display(unsignedMag);
 		end
 		
 		//count leading zeroes
